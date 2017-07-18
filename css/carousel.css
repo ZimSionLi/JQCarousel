@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.carousel-container ul, .carousel-container ol, .carousel-container li, .carousel-container img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.carousel-container {
+	position: relative;
+	width: 600px;
+	height: 300px;
+	overflow: hidden;
+}
+.carousel-imgs {
+	list-style: none;
+	width: 100%;
+	height: 100%;
+}
+.carousel-imgs > li {
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+.carousel-imgs img {
+	width: 100%;
+	height: 100%;
+}
+.carousel-dots {
+	list-style: none;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	padding: 20px 0 !important;
+	text-align: center;
+}
+.carousel-dots > a {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	text-decoration:none;
+	color:#FFF;
+	vertical-align:text-bottom;
+}
+.carousel-dots i {
+	font-size:14px;
+}
+.carousel-dot-off {
+	color:#FFF;
+}
+.carousel-dot-on {
+	color:#F00;
+}
+.carousel-nav-left, .carousel-nav-right {
+	display: none;
+	width: 36px;
+	height: 36px;
+	position: absolute;
+	top: 50%;
+	margin-top: -18px;
+	text-decoration: none;
+	color: #FFF;
+}
+.carousel-nav-left {
+	left: 3%;
+}
+.carousel-nav-right {
+	right: 3%;
+}
+.carousel-nav-left i, .carousel-nav-right i {
+	color: #F6F6F6;
+	font-size: 36px;
+}
+.carousel-nav-left i:hover, .carousel-nav-right i:hover {
+	color: #FFF;
+	font-weight: bold;
+}
